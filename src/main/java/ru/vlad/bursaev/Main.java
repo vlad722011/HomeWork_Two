@@ -13,7 +13,6 @@ public class Main {
          */
 
         Class<?> stringClass = Class.forName("java.lang.String");
-
         Method[] methods = stringClass.getDeclaredMethods();
         System.out.println("Список методов класса String: ");
         Arrays.stream(methods).forEach(System.out::println);
